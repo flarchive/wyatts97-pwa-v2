@@ -1,0 +1,75 @@
+{
+    "name": "wyatts97/pwa-v2",
+    "description": "Turn your flarum site into a progressive web app! (Flarum 2.x port)",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/wyatts97/pwa-v2/issues",
+        "source": "https://github.com/wyatts97/pwa-v2"
+    },
+    "require": {
+        "flarum/core": "^2.0.0-beta.0",
+        "minishlink/web-push": "^7.0 || ^8.0 || ^9.0",
+        "spomky-labs/base64url" : "^2.0"
+    },
+    "suggest": {
+        "ext-gmp": "This can improve push notification performance."
+    },
+    "authors": [
+        {
+            "name": "Alexander Skvortsov",
+            "email": "askvortsov@flarum.org",
+            "role": "Original Developer"
+        },
+        {
+            "name": "wyatts97",
+            "role": "Flarum 2.x Maintainer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Askvortsov\\FlarumPWA\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Progressive Web App",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-mobile-alt",
+                "backgroundColor": "#6932D1",
+                "color": "#fff"
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "admin": true,
+                "forum": true,
+                "js": true,
+                "jsCommon": false,
+                "css": false,
+                "gitConf": true,
+                "githubActions": true,
+                "prettier": true,
+                "typescript": false,
+                "bundlewatch": false,
+                "backendTesting": false,
+                "editorConfig": true,
+                "styleci": true
+            }
+        }
+    },
+    "require-dev": {
+        "flarum/phpstan": "^1.0"
+    },
+    "scripts": {
+        "analyse:phpstan": "phpstan analyse",
+        "clear-cache:phpstan": "phpstan clear-result-cache"
+    },
+    "scripts-descriptions": {
+        "analyse:phpstan": "Run static analysis"
+    }
+}
