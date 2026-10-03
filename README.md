@@ -2,13 +2,14 @@
 
 > **Read-only archive of released versions of wyatts97/pwa-v2.** Not for installation: use [Packagist](https://packagist.org/packages/wyatts97/pwa-v2) or the [upstream repository](https://github.com/wyatts97/pwa-v2).
 
-**0** versions archived · Latest: [`v2.1.2`](https://github.com/flarchive/wyatts97-pwa-v2/tree/archive/v2.1.2) · License: `MIT` · Flarum: `^2.0.0-beta.0`
+**2** versions archived · Latest: [`v2.1.2`](https://github.com/flarchive/wyatts97-pwa-v2/tree/archive/v2.1.2) · License: `MIT` · Flarum: `^2.0.0-beta.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `v2.1.1` | 2026-05-13 | `^2.0.0-beta.0` | [Browse](https://github.com/flarchive/wyatts97-pwa-v2/tree/archive/v2.1.1) |
+| `v2.1.2` | 2026-05-13 | `^2.0.0-beta.0` | [Browse](https://github.com/flarchive/wyatts97-pwa-v2/tree/archive/v2.1.2) |
 
 Catalog entry: [packages/wyatts97-pwa-v2.json](https://github.com/flarchive/archive-index/blob/main/packages/wyatts97-pwa-v2.json)
 
